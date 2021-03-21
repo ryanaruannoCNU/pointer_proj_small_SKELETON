@@ -15,7 +15,7 @@ using namespace std;
 using namespace KP;
 
 int main(int argc, char *argv[]) {
-	if (argc == 1 && *argv[1] == HELP_CHAR) {
+	if (argc == 1 && *argv[0] == HELP_CHAR) {
 		cout << HELP_STRING1 << endl;
 		cout << HELP_STRING2 << endl;
 		return SUCCESS;
